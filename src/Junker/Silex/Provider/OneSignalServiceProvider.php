@@ -25,6 +25,7 @@ class OneSignalServiceProvider implements ServiceProviderInterface
             $config = new Config();
             $config->setApplicationId($options['app_id']);
             $config->setApplicationAuthKey($options['api_key']);
+            $config->setUserAuthKey($options['user_auth_key']);
 
             $onesignal = new OneSignal($config, $client);
 

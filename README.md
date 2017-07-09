@@ -19,8 +19,9 @@ use Junker\Silex\Provider\OneSignalServiceProvider;
 
 $app->register(new OneSignalServiceProvider(), [
     'onesignal.options' => [
-        'app_id' => 'my app id',
-        'api_key' => 'my REST API key'
+        'app_id' => 'my App id',
+        'api_key' => 'my REST API key',
+        'user_auth_key' => 'my User Auth key'
     ]
 ]);
 
