@@ -1,0 +1,22 @@
+{
+    "name": "junker/onesignal-service-provider",
+    "description": "OneSignal Service Provider for Silex",
+    "keywords": ["silex","onesignal", "push"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Kosenkov",
+            "email": "dk-junker@ya.ru"
+        }
+    ],
+    "require": {
+        "silex/silex": "1.*",
+        "php-http/guzzle6-adapter", "^1.0",
+        "norkunas/onesignal-php-api": "dev:master"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Junker" : "src/"
+        }
+    }
+}
