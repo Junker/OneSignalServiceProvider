@@ -6,7 +6,7 @@ OneSignal Service Provider for Silex
 ## Requirements
 silex 1.x
 
-##Installation
+## Installation
 The best way to install OneSignalServiceProvider is to use a [Composer](https://getcomposer.org/download):
 
     php composer.phar require junker/onesignal-service-provider
